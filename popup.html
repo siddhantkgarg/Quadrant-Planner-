@@ -1,0 +1,150 @@
+<html>
+
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Quadrant Planner</title>
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.0/css/font-awesome.min.css">
+    <!-- Bootstrap core CSS -->
+    <link href="mdb/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Material Design Bootstrap -->
+    <link href="mdb/css/mdb.min.css" rel="stylesheet">
+    <!-- Your custom styles (optional) -->
+    <link rel = "stylesheet" href = "style.css"/>
+</head>
+
+	<body>
+
+		<nav class="navbar navbar-dark bg-primary ">
+    		<span class="navbar-text white-text">
+        		Time Management Quadrant Planner
+    		</span>
+    		<span class ="refresh-btn white-text" title="Refresh all quadrants">
+    			<i class="fa fa-refresh" aria-hidden="true"></i>
+    		</span>
+		</nav>
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-md-2"></div>
+				<div class="col-md-5 hidden-md-down"> 
+					Urgent
+				</div>
+				<div class="col-md-5 hidden-md-down">
+					Not Urgent
+				</div>
+			</div>
+			<div class="row ">
+				<div class="col-md-1 hidden-md-down individual" >
+					<div id="row">I
+					</div>
+					<div id="row">M
+					</div>
+					<div id="row">P
+					</div>
+					<div id="row">O
+					</div>
+					<div id="row">R
+					</div>
+					<div id="row">T
+					</div>
+					<div id="row">A
+					</div>
+					<div id="row">N
+					</div>
+					<div id="row">T
+					</div>
+				</div>
+				<div class="col-sm-12 visible-sm-down combined">
+					Important,Urgent
+				</div>
+				<div class="col-sm-12 col-md-5 quadrant q0" >
+					<div id="data-q0" class="chbx-container form-group">
+					</div>
+					<div class="md-form2 input-group-lg">
+					<span class="input-group-addon"><i class="fa fa-th-list prefix"></i>
+	    				<input type="text"  class="entrytextarea" id="q0"/></span>
+					</div>
+				</div>
+				<div class="col-sm-12 visible-sm-down combined">
+					Important,Not Urgent
+				</div>
+				<div class="col-sm-12 col-md-5 quadrant q1" >
+				<div id="data-q1" class="chbx-container form-group">
+					</div>
+					<div class="md-form2 input-group-lg">
+						<span class="input-group-addon"><i class="fa fa-th-list prefix"></i>
+	    				<input type="text"  class="entrytextarea" id="q1"/></span>
+					</div>
+				</div>
+				
+			</div>
+			<div class="row">
+			<div class="col-md-1	hidden-md-down individual" >
+				<div id="row">N
+					</div>
+					<div id="row">O
+					</div>
+					<div id="row">T
+					</div>
+					<div id="row">-
+					</div>
+				
+				<div id="row">I
+					</div>
+					<div id="row">M
+					</div>
+					<div id="row">P
+					</div>
+					<div id="row">O
+					</div>
+					<div id="row">R
+					</div>
+					<div id="row">T
+					</div>
+					<div id="row">A
+					</div>
+					<div id="row">N
+					</div>
+					<div id="row">T
+					</div>
+			</div>
+			<div class="col-sm-12 visible-sm-down combined">
+					Not Important,Urgent
+				</div>
+				<div class="col-sm-12 col-md-5 quadrant q2">
+				<div id="data-q2" class="chbx-container form-group">
+					</div>
+					<div class="md-form2 input-group-lg">
+						<span class="input-group-addon"><i class="fa fa-th-list prefix"></i>
+	    				<input type="text"  class="entrytextarea" id="q2"/>
+	    				</span>
+					</div>	
+				</div>
+				<div class="col-sm-12 visible-sm-down combined">
+					Not Important,Not Urgent
+				</div>
+				<div class="col-sm-12 col-md-5 quadrant q3" >
+				<div id="data-q3" class="chbx-container form-group">
+					</div>
+					<div class="md-form2 input-group-lg">
+						<span class="input-group-addon"><i class="fa fa-th-list prefix"></i>
+	    				<input type="text"  class="entrytextarea" id="q3"/></span>
+					</div>
+				</div>
+			</div>
+		</div>
+
+	<script type="text/javascript" src="mdb/js/jquery-3.1.1.min.js"></script>
+    <!-- Bootstrap tooltips -->
+    <script type="text/javascript" src="mdb/js/popper.min.js"></script>
+    <!-- Bootstrap core JavaScript -->
+    <script type="text/javascript" src="mdb/js/bootstrap.min.js"></script>
+    <!-- MDB core JavaScript -->
+    <script type="text/javascript" src="mdb/js/mdb.min.js"></script>
+    <script type="text/javascript" src="script.js"></script>
+
+	</body>
+</html>

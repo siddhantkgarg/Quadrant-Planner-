@@ -1,0 +1,98 @@
+html, body {background-color: #b9a8a8;min-width:500px;min-height:500px;}
+
+/*.scroll::-webkit-scrollbar {
+    width: 1em;
+}
+ 
+.scroll::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+}
+ 
+.scroll::-webkit-scrollbar-thumb {
+  background-color: darkgrey;
+  outline: 1px solid slategrey;
+  -webkit-border-radius: 10px;
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.5);
+}
+.scroll::-webkit-scrollbar-thumb:window-inactive {
+   background: darkgrey;
+}*/
+.q0{
+	
+	background-color: #03A9F4;
+}
+.q1{
+	
+	background-color: #F44336;
+}
+.q2{
+	
+	background-color: #9C27B0;
+}
+.q3{
+
+	background-color: #009688;
+}
+.quadrant{
+	height:50%;
+	/*border:5px black solid;*/
+	padding:5px;
+	display: inline-block;
+	overflow: hidden;
+}
+.md-form2{
+	margin:0px !important;
+	padding:0px !important;
+	position:absolute;
+	bottom:0;
+	right:0;
+	width: 100%;
+	color:white;
+	/*border:black;*/
+	height: 17%;
+}
+
+@media (max-width: 768px) {
+    .combined {
+        display: block;
+    }
+}
+@media (min-width: 768px) {
+    .combined {
+        display: none;
+    }
+}
+
+.navbar{
+	margin:0 0 10px 0;
+	position:fixed;
+	top:0px;
+	width:100%;
+	z-index:100;
+}
+.txt-item{
+	color:white;
+}
+.chbx-container{
+	overflow:auto;
+	height:80%;
+	position: absolute;
+	width:100%;
+}
+
+.entrytextarea{
+	padding-left:4px;
+}
+::-webkit-scrollbar {
+    width: 0px;
+    background: transparent; /* make scrollbar transparent */
+}
+
+.refresh-btn{
+	right:0;
+	margin-right: 3%;
+	position: absolute;;
+}
